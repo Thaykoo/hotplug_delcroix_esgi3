@@ -1,4 +1,5 @@
 # 🛡️ Rapport de TP : Conception et Défense contre une attaque BadUSB
+
 **Auteur :** Delcroix Mathéo (ESGI3)  
 **Sujet :** Sécurisation des accès Hotplug USB sur Linux
 
@@ -12,13 +13,12 @@ Ce projet vise à démontrer le fonctionnement d'une attaque par injection de to
 ## ⚡ 2. L'Attaque (Volet Offensif)
 Le payload simule un clavier HID pour automatiser une compromission rapide du système cible.
 
-*   **📂 Fichier :** `payload/payload.ino`
-*   **🎯 Vecteur :** Injection de commandes via l'ouverture automatique d'un terminal (`CTRL+ALT+T`).
-*   **💀 Payload :** Création d'un marqueur de vulnérabilité : `/tmp/vuln_proof.txt`.
+* **📂 Fichier :** `payload/payload.ino`
+* **🎯 Vecteur :** Injection de commandes via l'ouverture automatique d'un terminal (`CTRL+ALT+T`).
+* **💀 Payload :** Création d'un marqueur de vulnérabilité : `/tmp/vuln_proof.txt`.
 
 > [!IMPORTANT]
-> **Note technique sur le déploiement :**  
-> Le flashage du binaire `.hex` a été réalisé via l'outil `micronucleus`. Des limitations liées au confinement **AppArmor** (Snap) et aux instabilités de timing du bootloader sur les ports **USB 3.0** ont été identifiées comme des facteurs de réduction des risques en conditions réelles.
+> **Note technique sur le déploiement :** > Le flashage du binaire `.hex` a été réalisé via l'outil `micronucleus`. Lors des tests, des **difficultés de détection matérielle** liées aux instabilités de timing du bootloader sur les ports **USB 3.0** ont été rencontrées. Ces facteurs, bien que limitant le déploiement sur certaines configurations, soulignent l'importance des protections côté système pour pallier les aléas du matériel.
 
 ---
 
@@ -39,6 +39,8 @@ Préparation du blacklistage du module `usbhid`.
 ---
 
 ## 📊 4. Matrice de Tests et Preuves
+
+> **Note sur les tests :** La matrice ci-dessous présente les résultats observés lors de la validation du code en conditions nominales (comportement attendu du code vs efficacité réelle des scripts de protection).
 
 | Composant | État : Sans Défense | État : Défense Active | Résultat Final |
 | :--- | :--- | :--- | :--- |
