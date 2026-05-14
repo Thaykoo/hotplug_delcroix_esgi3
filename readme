@@ -1,0 +1,44 @@
+Delcroix Mathéo ESGI3 HOTPLUG
+
+# Rapport de TP : Conception et Défense contre une attaque BadUSB
+
+## 1. Présentation du Projet
+Ce projet vise à démontrer le fonctionnement d'une attaque par injection de touches (BadUSB) via un microcontrôleur **DigiSpark ATtiny85** et à mettre en place une défense robuste multi-couches sur un système Linux (Ubuntu).
+
+## 2. L'Attaque (Offensif)
+Le payload simule un clavier HID pour automatiser une compromission rapide.
+*   **Fichier :** `payload/payload.ino`
+*   **Vecteur :** Injection de commandes via terminal (`CTRL+ALT+T`).
+*   **Payload :** Création d'un marqueur de vulnérabilité dans `/tmp/vuln_proof.txt`.
+
+> **Note technique sur le déploiement :** 
+> Le flashage du binaire `.hex` a été réalisé via l'outil `micronucleus`. Des limitations liées au confinement AppArmor (Snap) et aux instabilités de timing du bootloader sur ports USB 3.0 ont été identifiées comme des facteurs de réduction des risques en conditions réelles.
+
+## 3. Stratégie de Défense (Défensif)
+Le script `protect.sh` déploie trois niveaux de sécurité :
+
+### A. Contrôle d'accès (USBGuard)
+Implémente une politique de **Whitelist**. Tout nouveau périphérique non autorisé est bloqué par le démon au moment de l'énumération sur le bus.
+
+### B. Filtrage matériel spécifique (Udev)
+Une règle `udev` cible spécifiquement l'empreinte matérielle du DigiSpark (`ID 16d0:0753`) pour révoquer son autorisation système, même si USBGuard était contourné.
+
+### C. Durcissement Kernel 
+Préparation du blacklistage du module `usbhid`. 
+*Attention : Cette mesure est réservée aux serveurs critiques sans interface physique, car elle désactive tous les claviers/souris USB.*
+
+## 4. Matrice de Tests et Preuves
+| Test | État : Sans Défense | État : Défense Active | Résultat |
+| :--- | :--- | :--- | :--- |
+| **Injection HID** | Exécution réussie | Aucun caractère saisi | **Succès** |
+| **Log Système** | Aucun log suspect | `Device not authorized` | **Succès** |
+| **Fichier Proof** | Créé dans `/tmp` | Absent | **Succès** |
+
+### Preuve de blocage (Extrait dmesg) :
+`[ 2168.410872] usb 1-3: Device is not authorized for usage`
+
+---
+
+## 5. Utilisation
+1. **Sécuriser :** `sudo ./protect.sh`
+2. **Restaurer :** `sudo ./rollback.sh`

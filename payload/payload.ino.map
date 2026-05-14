@@ -1,0 +1,153 @@
+00000000 W __heap_end
+00000000 a __tmp_reg__
+00000000 W __vector_default
+00000000 T __vectors
+00000001 a __zero_reg__
+00000003 A __FUSE_REGION_LENGTH__
+0000001e 00000060 t _ZL14keycodes_ascii
+0000001e T __trampolines_end
+0000001e T __trampolines_start
+0000003d a __SP_L__
+0000003e a __SP_H__
+0000003f a __SREG__
+0000007e 00000023 t usbDescriptorHidReport	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/DigiKeyboard.h:35
+000000a1 00000010 t usbDescriptorStringDevice	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrv.c:88
+000000b1 0000001c t usbDescriptorStringVendor	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrv.c:79
+000000cd 00000004 t usbDescriptorString0	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrv.c:69
+000000d1 00000022 t usbDescriptorConfiguration	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrv.c:141
+000000f3 00000012 t usbDescriptorDevice	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrv.c:110
+00000105 00000002 t port_to_output_PGM	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/variants/digispark/pins_arduino.c:277
+00000107 00000006 t digital_pin_to_port_PGM	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/variants/digispark/pins_arduino.c:289
+0000010d 00000006 t digital_pin_to_bit_mask_PGM	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/variants/digispark/pins_arduino.c:300
+00000114 T __ctors_start
+00000116 T __ctors_end
+00000116 T __dtors_end
+00000116 T __dtors_start
+00000116 W __init
+00000122 00000010 T __do_clear_bss	/home/jenkins/workspace/avr-gcc-staging/label/debian7-i686/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2441
+0000012a t .do_clear_bss_loop	/home/jenkins/workspace/avr-gcc-staging/label/debian7-i686/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2446
+0000012c t .do_clear_bss_start	/home/jenkins/workspace/avr-gcc-staging/label/debian7-i686/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2448
+00000132 00000016 T __do_copy_data	/home/jenkins/workspace/avr-gcc-staging/label/debian7-i686/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2409
+00000148 00000014 T __do_global_ctors	/home/jenkins/workspace/avr-gcc-staging/label/debian7-i686/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2466
+00000160 T __bad_interrupt
+00000160 W __vector_1
+00000160 W __vector_10
+00000160 W __vector_11
+00000160 W __vector_12
+00000160 W __vector_13
+00000160 W __vector_14
+00000160 W __vector_3
+00000160 W __vector_5
+00000160 W __vector_6
+00000160 W __vector_7
+00000160 W __vector_8
+00000160 W __vector_9
+00000162 00000040 t digitalWrite.constprop.4	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/cores/tiny/wiring_digital.c:117
+000001a2 00000050 t _ZN5Print5writeEPKhj	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/cores/tiny/Print.cpp:34
+000001f2 0000003a t usbGenericSetInterrupt.constprop.7	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrv.c:220
+0000022c 00000018 t _ZN5Print5printEPKc.constprop.0	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/cores/tiny/Print.h:81
+00000244 000002a4 t usbPoll	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrv.c:571
+0000025f W __stack
+00000400 A __LOCK_REGION_LENGTH__
+00000400 A __SIGNATURE_REGION_LENGTH__
+00000400 A __USER_SIGNATURE_REGION_LENGTH__
+000004e8 00000072 t _ZN18DigiKeyboardDevice5delayEl.isra.1	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/DigiKeyboard.h:88
+0000055a 00000038 t _ZN18DigiKeyboardDevice12sendKeyPressEhh	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/DigiKeyboard.h:138
+00000592 00000084 t _ZN18DigiKeyboardDevice5writeEh	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/DigiKeyboard.h:187
+00000616 00000014 t _ZN18DigiKeyboardDevice13sendKeyStrokeEh.constprop.2	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/DigiKeyboard.h:122
+0000062a 00000094 T __vector_4	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/cores/tiny/wiring.c:96
+000006be T usbCrc16	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrvasm.S:234
+000006d0 t usbCrcByteLoop	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrvasm.S:244
+000006d4 t usbCrcBitLoop	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrvasm.S:247
+000006de t usbCrcNoXor	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrvasm.S:253
+000006e2 t usbCrcLoopEntry	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrvasm.S:256
+000006e6 t usbCrcReady	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrvasm.S:259
+000006e8 T usbCrc16Append	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrvasm.S:266
+000006f0 T usbMeasureFrameLength	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrvasm.S:321
+000006f6 t usbMFTime16	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrvasm.S:325
+000006fa t usbMFWaitStrobe	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrvasm.S:328
+00000702 t usbMFWaitIdle	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrvasm.S:333
+0000070a t usbMFWaitLoop	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrvasm.S:338
+00000714 t usbMFTimeout	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrvasm.S:348
+00000716 T __vector_2	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrvasm16.inc:35
+0000071e t waitForJ	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrvasm16.inc:48
+00000724 t waitForK	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrvasm16.inc:53
+0000073e t foundK	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrvasm16.inc:78
+00000758 t haveTwoBitsK	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrvasm16.inc:100
+00000774 t unstuff6	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrvasm16.inc:124
+00000780 t unstuff7	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrvasm16.inc:132
+0000078c t unstuffEven	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrvasm16.inc:140
+0000079c t unstuffOdd	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrvasm16.inc:150
+000007ac t rxByteLoop	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrvasm16.inc:160
+000007b8 t skipLeap	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrvasm16.inc:167
+000007bc t didUnstuff6	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrvasm16.inc:170
+000007ca t didUnstuff7	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrvasm16.inc:178
+000007d2 t rxBitLoop	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrvasm16.inc:183
+000007e2 t didUnstuffE	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrvasm16.inc:192
+000007e6 t rxbit1	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrvasm16.inc:195
+000007f6 t didUnstuffO	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrvasm16.inc:204
+00000802 t overflow	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/asmcommon.inc:44
+00000806 t ignorePacket	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/asmcommon.inc:47
+0000080a t se0	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/asmcommon.inc:56
+0000083c t handleSetupOrOut	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/asmcommon.inc:95
+0000083c t storeTokenAndReturn	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/asmcommon.inc:95
+00000840 t doReturn	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/asmcommon.inc:97
+00000854 t sofError	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/asmcommon.inc:102
+0000085e t handleData	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/asmcommon.inc:109
+00000888 t handleIn	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/asmcommon.inc:134
+000008a8 t handleIn1	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/asmcommon.inc:170
+000008ba t bitstuffN	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrvasm16.inc:237
+000008c6 t bitstuff6	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrvasm16.inc:245
+000008ce t bitstuff7	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrvasm16.inc:251
+000008d2 t sendNakAndReti	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrvasm16.inc:256
+000008d6 t sendAckAndReti	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrvasm16.inc:259
+000008d8 t sendCntAndReti	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrvasm16.inc:261
+000008da t sendX3AndReti	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrvasm16.inc:263
+000008e0 t usbSendAndReti	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrvasm16.inc:276
+000008ee t txByteLoop	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrvasm16.inc:285
+000008f0 t txBitLoop	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrvasm16.inc:287
+000008fa t didStuffN	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrvasm16.inc:293
+00000908 t didStuff6	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrvasm16.inc:302
+00000914 t didStuff7	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrvasm16.inc:309
+0000093c t skipAddrAssign	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrvasm16.inc:332
+0000094c t se0Delay	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrvasm16.inc:341
+00000958 000000a4 T main	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/cores/tiny/main.cpp:3
+000009fc 0000004e t _GLOBAL__sub_I_usbDescriptorHidReport
+00000a4a 0000000c T __tablejump2__	/home/jenkins/workspace/avr-gcc-staging/label/debian7-i686/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2296
+00000a56 T _exit	/home/jenkins/workspace/avr-gcc-staging/label/debian7-i686/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2278
+00000a56 W exit	/home/jenkins/workspace/avr-gcc-staging/label/debian7-i686/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2278
+00000a58 t __stop_program	/home/jenkins/workspace/avr-gcc-staging/label/debian7-i686/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2280
+00000a5a A __data_load_start
+00000a5a T _etext
+00000aa0 A __data_load_end
+00002000 A __TEXT_REGION_LENGTH__
+0000ffa0 A __DATA_REGION_LENGTH__
+00010000 A __EEPROM_REGION_LENGTH__
+00800060 A __DATA_REGION_ORIGIN__
+00800060 D __data_start
+00800060 00000001 d usbMsgLen	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrv.c:49
+00800061 00000001 D usbTxLen	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrv.c:32
+00800062 00000008 d _ZTV18DigiKeyboardDevice
+008000a6 B __bss_start
+008000a6 D __data_end
+008000a6 D _edata
+008000a6 00000001 b usbConfiguration	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrv.c:28
+008000a7 00000001 b usbMsgFlags	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrv.c:50
+008000a8 00000002 b usbMsgPtr	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrv.c:48
+008000aa 00000001 b wasReset.1788
+008000ab 00000004 b millis_timer_overflow_count	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/cores/tiny/wiring.c:87
+008000af 00000001 b millis_timer_fract	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/cores/tiny/wiring.c:89
+008000b0 00000004 b millis_timer_millis	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/cores/tiny/wiring.c:88
+008000b4 00000007 b DigiKeyboard	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/DigiKeyboard.h:212
+008000bb 0000000b B usbTxBuf	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrv.c:33
+008000c6 0000000c B usbTxStatus1	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrv.c:38
+008000d2 00000001 B usbDeviceAddr	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrv.c:26
+008000d3 00000001 B usbRxToken	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrv.c:31
+008000d4 00000001 B usbInputBufOffset	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrv.c:25
+008000d5 00000001 B usbRxLen	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrv.c:29
+008000d6 00000001 B usbNewDeviceAddr	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrv.c:27
+008000d7 00000001 B usbCurrentTok	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrv.c:30
+008000d8 00000016 B usbRxBuf	/home/matheo/snap/arduino-cli/62/.arduino15/packages/digistump/hardware/avr/1.7.5/libraries/DigisparkKeyboard/usbdrv.c:24
+008000ee B __bss_end
+008000ee N _end
+00810000 N __eeprom_end
